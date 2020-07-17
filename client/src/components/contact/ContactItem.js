@@ -5,10 +5,11 @@ import { useContext } from 'react';
 export const ContactItem = ({contact}) => {
     const { id,name,email,phone,type } = contact;
     const contactContext = useContext(ContactContext);
-    const { deleteContact,setCurrent } = contactContext;
+    const { deleteContact,setCurrent,clearCurrent } = contactContext;
 
     const onDelete = () =>{
         deleteContact(id);
+        clearCurrent();
     }
     return (
         <div style={{marginTop:'30px'}}>

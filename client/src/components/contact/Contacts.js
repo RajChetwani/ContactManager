@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import ContactContext from '../../context/contact/contactContext'
-import ContactState from '../../context/contact/ContactState';
+//import ContactState from '../../context/contact/ContactState';
 import { ContactItem } from './ContactItem';
 import {CSSTransition,TransitionGroup } from 'react-transition-group'
 import './ContactStyle.css'
