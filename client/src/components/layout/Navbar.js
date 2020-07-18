@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="nav-link" style={{cursor:'pointer'}}>Hello {user && user.name}</div>
             </li>
             <li>
-                <a className="nav-link" onClick={onLogout} style={{cursor:'pointer'}}>
+                <a className="nav-link" href="/login" onClick={onLogout} style={{cursor:'pointer'}}>
                 <i className="fa fa-sign-out"></i><span className="hidde-sm">Logout</span>
                 </a>
             </li>

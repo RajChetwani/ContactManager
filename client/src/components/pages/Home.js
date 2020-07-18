@@ -15,11 +15,11 @@ const Home = () => {
     return (
         <div className="row">
            <div className="col-md-6">
-               <ContactFilter />    
-               <Contacts />
+               <ContactForm />
            </div>
            <div className="col-md-6">
-               <ContactForm />
+               <ContactFilter />    
+               <Contacts />
            </div>
         </div>
     )
